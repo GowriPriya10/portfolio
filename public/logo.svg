@@ -1,0 +1,12 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg"  id="logo" viewBox="-50 -50 100 100">
+<path d="M50,15.62 L50,0 L0,0 L0,36.87 L25.53,50 L50,37.5 L50,20 L15.49,20 L41.62,27.64 L41.62,32.43 L25.53,40.76 C25.53,40.76 9.23,32.64 9.23,32.43 L9.23,7.64 L41.63,7.64 L41.63,15.76 L50,15.76 L50,15.62 Z" id="Path"></path>
+</svg> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" id="Page-1" viewBox="-50 -50 100 100" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        
+    <g id="Artboard" transform="translate(-2879.000000, -276.000000)" fill="#111111" fill-rule="nonzero">            
+        <g id="Asset-64LETTERS2" transform="translate(2879.000000, 276.030000)">                
+            <path d="M50,15.62 L50,0 L0,0 L0,36.87 L25.53,50 L50,37.5 L50,20 L15.49,20 L41.62,27.64 L41.62,32.43 L25.53,40.76 C25.53,40.76 9.23,32.64 9.23,32.43 L9.23,7.64 L41.63,7.64 L41.63,15.76 L50,15.76 L50,15.62 Z" id="Path">
+            </path>            
+        </g>        
+    </g>  
+</svg>
