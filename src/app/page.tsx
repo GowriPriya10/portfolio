@@ -4,6 +4,7 @@ import Education from "@/components/education";
 import Work from "@/components/experience";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import HireMe from "@/components/hireMe";
 import LandingPage from "@/components/landingPage";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <Header />
       <main>
+        <HireMe />
         <LandingPage />
         <About />
         <Skills />
