@@ -26,7 +26,7 @@ export default function LandingPage() {
                 </button>
             </div>
             <div className="hidden sm:block w-6/12">
-                <img src="/landing_img.jpg" alt="image" />
+                <Image src="/landing_img.jpg" alt="image" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} priority/>
             </div>
         </div>
     )
