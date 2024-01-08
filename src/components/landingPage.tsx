@@ -24,7 +24,7 @@ export default function LandingPage() {
                 <div className="flex flex-row items-center gap-3 p-2">
                     {SocialLinks.map((link: SocialLinkConfig, id: number): ReactNode => 
                         <Link href={link.href} target="_blank" key={id}>
-                            <Image src={link.src} width={link.width} height={link.height} alt={`${link.name} icon`} className="bg-black border-2 border-solid border-black rounded-full cursor-pointer" />
+                            <Image src={link.src} width={link.width} height={link.height} alt={`${link.name} icon`} className="bg-black border-2 border-solid border-black rounded-full cursor-pointer hover:animate-bounce" />
                         </Link>
                     )}
                     <button className="relative inline-flex items-center justify-center p-0.5 mb-2 m-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
