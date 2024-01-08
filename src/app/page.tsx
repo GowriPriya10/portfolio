@@ -1,7 +1,7 @@
 import About from "@/components/about";
 import Achievements from "@/components/achievements";
 import Education from "@/components/education";
-import Work from "@/components/experience";
+import Experience from "@/components/experience";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HireMe from "@/components/hireMe";
@@ -19,7 +19,7 @@ export default function Home() {
         <LandingPage />
         <About />
         <Skills />
-        <Work />
+        <Experience />
         <Projects />
         <Achievements />
         <Education />

@@ -22,8 +22,6 @@ export default function WhyMe() {
             result.push({ ...keyHighlight, id, isOpen: false });
         })
 
-        console.log(result);
-
         setKeyHighlights(result);
     }, [])
 

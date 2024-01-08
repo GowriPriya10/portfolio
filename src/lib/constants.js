@@ -4,21 +4,21 @@ export const SocialLinks = [
     {
         name: 'github',
         href: 'https://github.com/GowriPriya10',
-        src: 'github.svg',
+        src: '/socialIcons/github.svg',
         width: 40,
         height: 40
     },
     {
         name: 'linkedin',
         href: 'https://www.linkedin.com/in/gowripriya-eppa/',
-        src: 'linkedin.svg',
+        src: '/socialIcons/linkedin.svg',
         width: 40,
         height: 40
     },
     {
         name: 'mail',
         href: 'mailto:eppa.gowripriya@gmail.com',
-        src: 'mail.svg',
+        src: '/socialIcons/mail.svg',
         width: 40,
         height: 40
     }
@@ -44,5 +44,99 @@ export const whyMe = [
     {
         title: 'Collaborative Flexibility',
         description: 'Whether working independently or as part of a team, I bring a versatile and collaborative spirit to every project. This adaptability ensures effective contributions and successful project outcomes.'
+    }
+]
+
+const frontEndSkills = [
+    {
+        name: 'javascript',
+        src: '/skills/javascript.svg',
+        title: 'Javascript'
+    },
+    {
+        name: 'react',
+        src: '/skills/react.svg',
+        title: 'React Js'
+    },
+    {
+        name: 'next',
+        src: '/skills/nextjs.svg',
+        title: 'Next Js'
+    },
+    {
+        name: 'krakenjs',
+        src: '/skills/krakenjs.svg',
+        title: 'Kraken Js'
+    },
+    {
+        name: 'typescript',
+        src: '/skills/typescript.svg',
+        title: 'Typescript'
+    },
+    {
+        name: 'tailwind',
+        src: '/skills/tailwindcss.svg',
+        title: 'Tailwind'
+    },
+    {
+        name: 'sass',
+        src: '/skills/sass.svg',
+        title: 'Sass'
+    },
+    {
+        name: 'css',
+        src: '/skills/css.svg',
+        title: 'CSS'
+    },
+    {
+        name: 'html',
+        src: '/skills/html.svg',
+        title: 'HTML'
+    }
+];
+
+const backEndSkills = [
+    {
+        name: 'node',
+        src: '/skills/node.svg',
+        title: 'Node Js'
+    },
+    {
+        name: 'express',
+        src: '/skills/expressjs.svg',
+        title: 'Express Js'
+    },
+    {
+        name: 'mongodb',
+        src: '/skills/mongodb.svg',
+        title: 'Mongo DB'
+    }
+];
+
+const otherSkills = [
+    {
+        name: 'git',
+        src: '/skills/git.svg',
+        title: 'Git'
+    },
+    {
+        name: 'postman',
+        src: '/skills/postman.svg',
+        title: 'PostMan'
+    }
+];
+
+export const SkillSectionConfig = [
+    {
+        section: 'FrontEnd',
+        skills: frontEndSkills
+    },
+    {
+        section: 'BackEnd',
+        skills: backEndSkills
+    },
+    {
+        section: 'Other',
+        skills: otherSkills
     }
 ]

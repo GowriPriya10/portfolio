@@ -1,7 +1,7 @@
 
-export default function Work() {
+export default function Experience() {
     return (
-        <div style={{backgroundColor: 'white', height: '100vh'}} id="work">
+        <div id="work">
         </div>
     )
 }
