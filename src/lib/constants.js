@@ -1,4 +1,4 @@
-export const NavLinks = ['Home', 'About', 'Skills', 'Experience', 'Projects', 'Achievements', 'Certifications', 'Education' ];
+export const NavLinks = ['Home', 'About', 'Skills', 'Experience', 'Projects', 'Achievements', 'Certifications' ];
 
 export const SocialLinks = [
     {
@@ -59,19 +59,24 @@ const frontEndSkills = [
         title: 'React Js'
     },
     {
-        name: 'next',
-        src: '/skills/nextjs.svg',
-        title: 'Next Js'
-    },
-    {
         name: 'krakenjs',
         src: '/skills/krakenjs.svg',
         title: 'Kraken Js'
     },
     {
+        name: 'next',
+        src: '/skills/nextjs.svg',
+        title: 'Next Js'
+    },
+    {
         name: 'typescript',
         src: '/skills/typescript.svg',
         title: 'Typescript'
+    },
+    {
+        name: 'webpack',
+        src: '/skills/webpack.svg',
+        title: 'Webpack'
     },
     {
         name: 'tailwind',
