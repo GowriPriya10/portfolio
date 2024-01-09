@@ -21,8 +21,9 @@ export default function Skills() {
                                                 width={80}
                                                 height={80}
                                                 title={skill.title}
+                                                className="hover:scale-110"
                                             />
-                                            <span>{skill.title}</span>
+                                            <span className="text-sm text-slate-500 font-semibold">{skill.title}</span>
                                         </div>
                                     )
                                 })}

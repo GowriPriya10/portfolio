@@ -1,4 +1,4 @@
-export const NavLinks = ['Home', 'About', 'Skills', 'Work', 'Projects'];
+export const NavLinks = ['Home', 'About', 'Skills', 'Experience', 'Projects', 'Achievements', 'Certifications', 'Education' ];
 
 export const SocialLinks = [
     {
@@ -138,5 +138,32 @@ export const SkillSectionConfig = [
     {
         section: 'Other',
         skills: otherSkills
+    }
+]
+
+export const AchievementsConfig = [
+    {
+        title: 'Cheers Award – Most Determined Employee',
+        src: '/certs/Award 3.png'
+    },
+    {
+        title: 'Cheers Award - Doing the right thing, the right way',
+        src: '/certs/Award 2.png'
+    },
+    {
+        title: 'Cheers Award - Doing the right thing, the right way',
+        src: '/certs/Award 1.png'
+    }
+]
+
+export const certificates = [
+    {
+        title: 'AWS Certified Cloud Practitioner',
+        desc: 'Issued Feb 2022 | Credential ID ZQ7QFZMJM1EQQR3H',
+        link: '/certs/AWS CCP Certificate.pdf'
+    },
+    {
+        title: 'Complete Web Developer in 2019:Zero to Mastery',
+        link: '/certs/ZTM Certificate.pdf'
     }
 ]
