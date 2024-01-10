@@ -3,7 +3,7 @@
 import { motion, useScroll } from "framer-motion"
 import { useRef } from "react";
 import { workDetails, eduDetails } from "@/lib/constants";
-import ReactHTMLParser from "react-html-parser"
+import parse from "html-react-parser";
 
 type workDetailsProps = {
     role: string;
@@ -96,7 +96,7 @@ const WorkContent = ({details, id} : any) => {
                     <p className="leading-8 text-lg text-slate-800">Project: <span className="leading-8 text-base text-slate-800">{details.desc.project}</span></p>
                     <ul className="list-disc">
                         {details.desc.summary.map((point: any, id: number) => {
-                            return <li key={id} className="m-2">{ReactHTMLParser(point)}</li>
+                            return <li key={id} className="m-2">{parse(point)}</li>
                         })}
                     </ul>
                 </div>
