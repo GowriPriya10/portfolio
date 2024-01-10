@@ -172,3 +172,66 @@ export const certificates = [
         link: '/certs/ZTM Certificate.pdf'
     }
 ]
+
+export const workDetails = [
+    {
+        role: "Associate",
+        company: "Cognizant",
+        timeline: "Dec 2022 - Present",
+        place: "Hyderabad, India",
+        desc: {
+            project: "PayPal",
+            summary: [
+                "Developed dynamic data and document collection interfaces for users, including CIP, ReKYC, Venmo TapToPay, Name Change, etc., to facilitate resolution of account limitations and enhance payment experiences.",
+                "Implemented reusable UI components to improve overall application efficiency.",
+                "Collaborated with diverse stakeholders throughout the Software Development Life Cycle (SDLC) to ensure project success and timely completion.",
+                "Engaged in the code review process and actively resolving identified bugs to maintain code integrity and application reliability."
+            ]
+        }
+    },
+    {
+        role: "Programmer Analyst",
+        company: "Cognizant",
+        timeline: "Oct 2021 - Dec 2022",
+        place: "Hyderabad, India",
+        desc: {
+            project: "PayPal",
+            summary: [
+                "<b>Reduced the payload size</b> of Node JS based mid-tier application's API by <b>~97%</b> which resulted in faster page load time of the front-end page and <b>decrease in 95th percentile CPL by ~27%.</b>",
+                "<b>Improved the performance</b> of KrakenJS based application by <b>reducing ~20% of the bundle size.</b>",
+                "Developed dynamic data and document collection interfaces for users to resolve their account limitations and have smoother payments experience."
+            ]
+        }
+        
+    },
+    {
+        role: "Programmer Analyst Trainee",
+        company: "Cognizant",
+        timeline: "Oct 2020 - Oct 2021",
+        place: "Hyderabad, India",
+        desc: {
+            project: "PayPal",
+            summary: [
+                "Improved application reliability by addressing failing unit tests and enhancing test coverage of a node js based mid-tier application",
+                "Successfully resolved bugs to ensure the application's stability."
+            ]
+        }
+    }
+]
+
+export const eduDetails = [
+    {
+        major: "Bachelor of Engineering",
+        institution: "MVSR Engineering College",
+        timeline: "2016 - 2020",
+        place: "Hyderabad",
+        desc: "CGPA: 8.62"
+    },
+    {
+        major: "M.P.C",
+        institution: "Sr. Chaitanya Jr. College",
+        timeline: "2014 - 2016",
+        place: "Hyderabad",
+        desc: "Percentage: 96.1"
+    }
+]

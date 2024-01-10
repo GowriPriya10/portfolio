@@ -5,7 +5,7 @@ import { ReactNode } from "react";
 export default function Skills() {
     return (
         <div id="skills" className="m-2 p-2">
-            <p className='flex w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Skills</p>
+            <p className='flex justify-center w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Skills</p>
             <div className="flex gap-5 sm:gap-12 m-2 p-4 flex-wrap">
                 {SkillSectionConfig.map((skillSection, id): ReactNode => {
                     return (

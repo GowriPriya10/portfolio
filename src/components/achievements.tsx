@@ -9,7 +9,7 @@ type achievementProps = {
 export default function Achievements() {
     return (
         <div id="achievements" className="m-2 p-2">
-            <p className='flex w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Achievements</p>
+            <p className='flex justify-center w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Achievements</p>
             <div className="flex flex-wrap m-2 p-4 justify-center">
                 {AchievementsConfig.map((achievement: achievementProps, id: number): ReactNode => {
                     return <div key={id} className="max-w-sm rounded overflow-hidden border-2 shadow-lg bg-white hover:scale-125 m-4 p-4">
