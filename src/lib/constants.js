@@ -235,3 +235,28 @@ export const eduDetails = [
         desc: "Percentage: 96.1"
     }
 ]
+
+export const projects = [
+    {
+        name: 'TweetIT',
+        techStack: "React JS, Node JS, MongoDB, ELK stack (ElasticSearch, Logstash, Kibana), Prometheus, Grafana",
+        desc: "TweetIT application, is a MERN stack-based application resembling Twitter. Incorporated the ELK stack for centralized logging and implemented Prometheus and Grafana for comprehensive metric monitoring.",
+        github: "https://github.com/GowriPriya10/TweetIT",
+        image: "/mfr.png"
+    },
+    {
+        name: "Multiple Face Recognition Application",
+        techStack: "React JS, Node JS, MongoDB, Clarifai API",
+        desc: "It is a MERN stack based Web application which detects multiple faces in the image using the Clarifai api.",
+        github: "https://github.com/GowriPriya10/MultipleFaceRecognitionApp",
+        demo: "https://multiple-face-recognition-app.vercel.app/",
+        image: "/mfr.png"
+    },
+    {
+        name: "Portfolio website",
+        techStack: "Next JS, Tailwind css, Framer-motion",
+        desc: "Personal Portfolio website made using React framework Next Js 14",
+        github: "https://github.com/GowriPriya10/portfolio",
+        image: "/mfr.png"
+    }
+]

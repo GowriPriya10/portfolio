@@ -32,7 +32,7 @@ export default function Header() {
             <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
                 <div className="flex items-center justify-between">
                     <a href="/">
-                        <Image src="/icon.ico" alt="logo" width="40" height="40" priority/>
+                        <Image src="/icon.ico" alt="logo" width="40" height="40" priority style={{width: "auto", height: "auto"}}/>
                     </a>
                     <div className="sm:hidden">
                         {
