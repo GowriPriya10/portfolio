@@ -35,7 +35,7 @@ export default function Experience() {
     return (
         <div id="experience" className="m-2 p-2">
             <p className='flex justify-center w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Experience and Education</p>
-            <div ref={ref} className="w-[75%] mx-auto relative m-8 p-4">
+            <div ref={ref} className="w-[75%] mx-auto relative m-2 p-4">
                 <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[3px] h-full bg-black origin-top" />
                 <ul className="w-full flex flex-col items-start justify-between ml-4">
                     {workDetails.map((detail : workDetailsProps, id: number) => {
@@ -54,7 +54,8 @@ const Icon = ({ reference }: any) => {
     const { scrollYProgress } = useScroll(
         {
             target: reference,
-            offset: ["center end", "center center"]
+            offset: ["center end", "center center"],
+            layoutEffect: false
         }
     )
     return (
@@ -80,7 +81,7 @@ const WorkContent = ({details, id} : any) => {
     const ref = useRef(null);
 
     return (
-        <li key={id} ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
+        <li key={id} ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col">
             <Icon reference={ref} />
             <motion.div
                 initial={{ y: 50 }}
