@@ -12,7 +12,7 @@ type certProps = {
 
 export default function Certifications() {
     return (
-        <div id="certifications" className="m-2 p-2">
+        <div id="certifications" className="m-2 p-2 mb-20">
             <p className='flex justify-center w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Certifications</p>
             <div className="flex flex-wrap">
                 {certificates.map((cert: certProps, id): ReactNode => {

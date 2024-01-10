@@ -1,4 +1,5 @@
 import { AchievementsConfig } from "@/lib/constants"
+import Link from "next/link"
 import { ReactNode } from "react"
 
 type achievementProps = {
@@ -16,6 +17,9 @@ export default function Achievements() {
                         <img className="w-full h-48 object-contain" src={achievement.src} alt="Card Image" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-l mb-2">{achievement.title}</div>
+                            <div className="w-full flex justify-end text-sm underline decoration-solid text-orange-900">
+                                <Link href={achievement.src} target="_blank">View Award</Link>
+                            </div>
                         </div>
                     </div>
                 })}
