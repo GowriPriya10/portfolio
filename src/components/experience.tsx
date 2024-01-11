@@ -89,7 +89,7 @@ const WorkContent = ({details, id} : any) => {
                 transition={{ duration: 0.5, type: "spring" }}
             >
                 <p className="capitalize font-bold text-2xl"> {details.role} <span className="text-indigo-600">@{details.company}</span></p>
-                <span className="capitalize text-sm font-medium text-slate-400 leading-4">
+                <span className="capitalize text-sm font-medium text-slate-600 leading-4">
                     {details.timeline} | {details.place}
                 </span>
                 <div className="font-medium w-full">
@@ -117,7 +117,7 @@ const EducationContent = ({details, id} : any) => {
                 transition={{ duration: 0.5, type: "spring" }}
             >
                 <p className="capitalize font-bold text-2xl"> {details.major} <span className="text-indigo-600">@{details.institution}</span></p>
-                <span className="capitalize text-sm font-medium text-slate-400 leading-4">
+                <span className="capitalize text-sm font-medium text-slate-600 leading-4">
                     {details.timeline} | {details.place}
                 </span>
                 <div className="font-medium w-full">

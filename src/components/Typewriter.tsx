@@ -50,7 +50,7 @@ export default function TypeWriter({strings, delay = 100, loop = false, pause = 
     }, [index, currText, reversing, currentStringId]);
 
     return (
-        <span className="text-xl sm:text-3xl font-semibold bg-gradient-to-br from-purple-700/100 to-blue-700/100 text-transparent bg-clip-text">
+        <span className="text-xl lg:text-3xl font-semibold bg-gradient-to-br from-purple-700/100 to-blue-700/100 text-transparent bg-clip-text">
             {currText}
             <span className="text-black animate-ping font-light">|</span>
         </span>

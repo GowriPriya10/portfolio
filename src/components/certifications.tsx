@@ -22,7 +22,7 @@ export default function Certifications() {
                                 <Image src="/certs/certificate.svg" alt="icon" width={50} height={50} />
                                 <div className="flex flex-col">
                                     <div className="text-xl">{cert.title}</div>
-                                    {cert.desc && <div className="text-sm text-slate-400">{cert.desc}</div>}
+                                    {cert.desc && <div className="text-sm text-slate-600">{cert.desc}</div>}
                                 </div>
                             </div>
                             <div>

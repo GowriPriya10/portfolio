@@ -257,6 +257,7 @@ export const projects = [
         techStack: "Next JS, Tailwind css, Framer-motion",
         desc: "Personal Portfolio website made using React framework Next Js 14",
         github: "https://github.com/GowriPriya10/portfolio",
+        demo: "https://portfolio-gowripriyaeppa.vercel.app/",
         image: "/projects/portfolio.jpg"
     }
 ]

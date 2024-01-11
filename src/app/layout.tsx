@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en"  className="scroll-smooth">
+      <head>
+        <meta name="robots" content="all" />
+      </head>
       <body className={inter.className}>
         {children}
       </body>

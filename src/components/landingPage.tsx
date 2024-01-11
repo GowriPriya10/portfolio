@@ -15,8 +15,8 @@ type SocialLinkConfig = {
 export default function LandingPage() {
     return (
         <div id="home" className="flex flex-row items-center m-8">
-            <div className="flex flex-col sm:w-6/12 m-2 p-2 sm:m-8 sm:p-8">
-                <div className="text-l sm:text-xl leading-8 p-2">
+            <div className="flex flex-col sm:w-6/12 m-2 sm:m-8 sm:p-8">
+                <div className="text-l sm:text-xl leading-8 sm:p-2">
                     <p>Hello 👋,</p>
                     <p>I’m GowriPriya</p>
                     <p>And I’m a <TypeWriter strings={roles} delay={300} pause={2000} loop={true} /></p>
