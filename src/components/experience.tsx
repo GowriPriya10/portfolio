@@ -33,18 +33,18 @@ export default function Experience() {
         }
     )
     return (
-        <div id="experience" className="m-2 p-2">
+        <div id="experience" className="m-2 p-2 relative">
             <p className='flex justify-center w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Experience and Education</p>
-            <div ref={ref} className="w-[75%] mx-auto relative m-2 p-4">
+            <div ref={ref} className="sm:w-[75%] mx-auto relative m-2 p-4">
                 <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[3px] h-full bg-black origin-top" />
-                <ul className="w-full flex flex-col items-start justify-between ml-4">
-                    {workDetails.map((detail : workDetailsProps, id: number) => {
-                        return <WorkContent key={id} id={id} details={detail}/>
-                    })}
-                    {eduDetails.map((detail : eduDetailsProps, id: number) => {
-                        return <EducationContent key={id} id={id} details={detail} />
-                    })}
-                </ul>
+                    <ul className="sm:w-full flex flex-col items-start justify-between ml-4">
+                        {workDetails.map((detail : workDetailsProps, id: number) => {
+                            return <WorkContent key={id} id={id} details={detail}/>
+                        })}
+                        {eduDetails.map((detail : eduDetailsProps, id: number) => {
+                            return <EducationContent key={id} id={id} details={detail} />
+                        })}
+                    </ul>
             </div>
         </div>
     )
@@ -81,7 +81,7 @@ const WorkContent = ({details, id} : any) => {
     const ref = useRef(null);
 
     return (
-        <li key={id} ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col">
+        <li key={id} ref={ref} className="my-8 first:mt-0 w-[100%] ml-8 sm:ml-auto sm:w-[60%] mx-auto flex flex-col">
             <Icon reference={ref} />
             <motion.div
                 initial={{ y: 50 }}
@@ -109,7 +109,7 @@ const EducationContent = ({details, id} : any) => {
     const ref = useRef(null);
 
     return (
-        <li key={id} ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col">
+        <li key={id} ref={ref} className="my-8 first:mt-0 w-[100%] ml-8 sm:ml-auto sm:w-[60%] mx-auto flex flex-col">
             <Icon reference={ref} />
             <motion.div
                 initial={{ y: 50 }}

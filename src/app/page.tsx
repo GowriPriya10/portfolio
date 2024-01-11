@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="mt-24 sm:mt-2">
         <HireMe />
         <LandingPage />
         <About />

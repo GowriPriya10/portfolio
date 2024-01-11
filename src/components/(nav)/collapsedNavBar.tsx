@@ -12,7 +12,7 @@ export default function CollapsedNav({ visible, links, setNavVisible, scrollToSe
 
     return (
         visible && 
-        <div className="menu fixed left-0 w-full h-full overflow-hidden flex items-center justify-center bg-white">
+        <div className="fixed left-0 w-full h-full overflow-hidden flex items-center justify-center bg-white">
             <div className="flex-none overflow-hidden flex items-center justify-center">
                 <div className="text-center overflow-y-auto flex flex-col gap-3 justify-center items-center max-h-screen block">
                     {links.map((link: string, id: number) => {
