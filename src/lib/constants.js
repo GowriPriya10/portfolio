@@ -259,5 +259,13 @@ export const projects = [
         github: "https://github.com/GowriPriya10/portfolio",
         demo: "https://portfolio-gowripriyaeppa.vercel.app/",
         image: "/projects/portfolio.jpg"
+    },
+    {
+        name: "Vanilla Javascript Projects",
+        techStack: "Javascript, HTML, CSS",
+        desc: "Mini projects built using plain vanilla Javascript",
+        github: "https://github.com/GowriPriya10/ui-challenges",
+        demo: "https://ui-challenges-ten.vercel.app/",
+        image: "/projects/jsprojects.png"
     }
 ]

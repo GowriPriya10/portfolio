@@ -45,7 +45,7 @@ export default function Projects() {
                                         {
                                             project.demo &&
                                             <div className="cursor-pointer text-lg flex items-end underline decoration-solid hover:scale-105">
-                                                <Link href={project.demo}>View Demo</Link>
+                                                <Link href={project.demo} target="_blank">View Demo</Link>
                                             </div>
                                         }
                                     </div>
