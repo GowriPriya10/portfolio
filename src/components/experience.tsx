@@ -10,10 +10,10 @@ type workDetailsProps = {
     company: string;
     timeline: string;
     place: string;
-    desc: {
+    desc: Array<{
         project: string;
         summary: Array<string>
-    }
+    }>;
 }
 
 type eduDetailsProps = {
@@ -37,14 +37,14 @@ export default function Experience() {
             <p className='flex justify-center w-full m-2 p-4 text-2xl md:text-3xl font-semibold text-indigo-950'>Experience and Education</p>
             <div ref={ref} className="sm:w-[75%] mx-auto relative m-2 p-4">
                 <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[3px] h-full bg-black origin-top" />
-                    <ul className="sm:w-full flex flex-col items-start justify-between ml-4">
-                        {workDetails.map((detail : workDetailsProps, id: number) => {
-                            return <WorkContent key={id} id={id} details={detail}/>
-                        })}
-                        {eduDetails.map((detail : eduDetailsProps, id: number) => {
-                            return <EducationContent key={id} id={id} details={detail} />
-                        })}
-                    </ul>
+                <ul className="sm:w-full flex flex-col items-start justify-between ml-4">
+                    {workDetails.map((detail: workDetailsProps, id: number) => {
+                        return <WorkContent key={id} id={id} details={detail} />
+                    })}
+                    {eduDetails.map((detail: eduDetailsProps, id: number) => {
+                        return <EducationContent key={id} id={id} details={detail} />
+                    })}
+                </ul>
             </div>
         </div>
     )
@@ -77,7 +77,7 @@ const Icon = ({ reference }: any) => {
     )
 }
 
-const WorkContent = ({details, id} : any) => {
+const WorkContent = ({ details, id }: any) => {
     const ref = useRef(null);
 
     return (
@@ -93,10 +93,16 @@ const WorkContent = ({details, id} : any) => {
                     {details.timeline} | {details.place}
                 </span>
                 <div className="font-medium w-full">
-                    <p className="leading-8 text-lg text-slate-800">Project: <span className="leading-8 text-base text-slate-800">{details.desc.project}</span></p>
                     <ul className="list-disc">
-                        {details.desc.summary.map((point: any, id: number) => {
-                            return <li key={id} className="m-2">{parse(point)}</li>
+                        {details.desc.map((detail: any, id: number) => {
+                            return <div key={id}>
+                                <p className="leading-8 text-lg text-slate-800">
+                                    <b>Project: </b><span className="leading-8 text-base text-slate-800">{detail.project}</span>
+                                </p>
+                                {detail.summary.map((point: any, id: number) => {
+                                    return <li key={id} className="m-2">{parse(point)}</li>
+                                })}
+                            </div>
                         })}
                     </ul>
                 </div>
@@ -105,7 +111,7 @@ const WorkContent = ({details, id} : any) => {
     )
 }
 
-const EducationContent = ({details, id} : any) => {
+const EducationContent = ({ details, id }: any) => {
     const ref = useRef(null);
 
     return (

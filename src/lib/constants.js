@@ -1,4 +1,4 @@
-export const NavLinks = ['Home', 'About', 'Skills', 'Experience', 'Projects', 'Achievements', 'Certifications' ];
+export const NavLinks = ['Home', 'About', 'Skills', 'Experience', 'Projects', 'Achievements', 'Certifications'];
 
 export const SocialLinks = [
     {
@@ -57,6 +57,11 @@ const frontEndSkills = [
         name: 'react',
         src: '/skills/react.svg',
         title: 'React Js'
+    },
+    {
+        name: 'Redux',
+        src: '/skills/redux.svg',
+        title: 'Redux'
     },
     {
         name: 'krakenjs',
@@ -179,43 +184,55 @@ export const workDetails = [
         company: "Cognizant",
         timeline: "Dec 2022 - Present",
         place: "Hyderabad, India",
-        desc: {
-            project: "PayPal",
-            summary: [
-                "Developed dynamic data and document collection interfaces for users, including CIP, ReKYC, Venmo TapToPay, Name Change, etc., to facilitate resolution of account limitations and enhance payment experiences.",
-                "Implemented reusable UI components to improve overall application efficiency.",
-                "Collaborated with diverse stakeholders throughout the Software Development Life Cycle (SDLC) to ensure project success and timely completion.",
-                "Engaged in the code review process and actively resolving identified bugs to maintain code integrity and application reliability."
-            ]
-        }
+        desc: [
+            {
+                project: "United Health Group",
+                summary: [
+                    "Designed, Developed and Maintained front-end interfaces for a Machine Learning-driven project utilizing React JS and Redux for robust state management.",
+                    "Reviewed, refactored and optimised the codebase to enhance performance and maintainability, ensuring maximum efficiency of the project."
+                ]
+            },
+            {
+                project: "PayPal",
+                summary: [
+                    "Developed dynamic data and document collection interfaces for users, including CIP, ReKYC, Venmo TapToPay, Name Change, etc., to facilitate resolution of account limitations and enhance payment experiences.",
+                    "Implemented reusable UI components to improve overall application efficiency.",
+                    "Collaborated with diverse stakeholders throughout the Software Development Life Cycle (SDLC) to ensure project success and timely completion.",
+                    "Engaged in the code review process and actively resolving identified bugs to maintain code integrity and application reliability."
+                ]
+            }
+        ]
     },
     {
         role: "Programmer Analyst",
         company: "Cognizant",
         timeline: "Oct 2021 - Dec 2022",
         place: "Hyderabad, India",
-        desc: {
-            project: "PayPal",
-            summary: [
-                "<b>Reduced the payload size</b> of Node JS based mid-tier application's API by <b>~97%</b> which resulted in faster page load time of the front-end page and <b>decrease in 95th percentile CPL by ~27%.</b>",
-                "<b>Improved the performance</b> of KrakenJS based application by <b>reducing ~20% of the bundle size.</b>",
-                "Developed dynamic data and document collection interfaces for users to resolve their account limitations and have smoother payments experience."
-            ]
-        }
-        
+        desc: [
+            {
+                project: "PayPal",
+                summary: [
+                    "<b>Reduced the payload size</b> of Node JS based mid-tier application's API by <b>~97%</b> which resulted in faster page load time of the front-end page and <b>decrease in 95th percentile CPL by ~27%.</b>",
+                    "<b>Improved the performance</b> of KrakenJS based application by <b>reducing ~20% of the bundle size.</b>",
+                    "Developed dynamic data and document collection interfaces for users to resolve their account limitations and have smoother payments experience."
+                ]
+            }
+        ]
     },
     {
         role: "Programmer Analyst Trainee",
         company: "Cognizant",
         timeline: "Oct 2020 - Oct 2021",
         place: "Hyderabad, India",
-        desc: {
-            project: "PayPal",
-            summary: [
-                "Improved application reliability by addressing failing unit tests and enhancing test coverage of a node js based mid-tier application",
-                "Successfully resolved bugs to ensure the application's stability."
-            ]
-        }
+        desc: [
+            {
+                project: "PayPal",
+                summary: [
+                    "Improved application reliability by addressing failing unit tests and enhancing test coverage of a node js based mid-tier application",
+                    "Successfully resolved bugs to ensure the application's stability."
+                ]
+            }
+        ]
     }
 ]
 
