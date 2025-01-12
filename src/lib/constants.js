@@ -26,7 +26,7 @@ export const SocialLinks = [
 
 export const roles = ['Front-End Developer', 'Full Stack Developer'];
 
-export const aboutMe = 'Hello there!! I am GowriPriya Eppa, an enthusiastic software developer with a specialization in front-end development utilizing JavaScript and various frameworks and libraries. Possessing a talent for designing engaging and seamless user experiences, I excel in transforming concepts into visually appealing and functional web applications. Additionally, I am proficient in utilizing Node.js and Express.js to construct robust backends.'
+export const aboutMe = 'Hello there! I am GowriPriya Eppa, a passionate software developer specializing in front-end development. My expertise lies in crafting seamless and engaging user experiences using React.js, JavaScript, and modern frameworks. I excel in transforming ideas into visually captivating and functional web applications. Additionally, I am proficient in Node.js and Python (FastAPI) for building robust and scalable backends, bringing full-stack capabilities to my work.'
 
 export const whyMe = [
     {
@@ -63,36 +63,36 @@ const frontEndSkills = [
         src: '/skills/redux.svg',
         title: 'Redux'
     },
-    {
-        name: 'krakenjs',
-        src: '/skills/krakenjs.svg',
-        title: 'Kraken Js'
-    },
-    {
-        name: 'next',
-        src: '/skills/nextjs.svg',
-        title: 'Next Js'
-    },
+    // {
+    //     name: 'krakenjs',
+    //     src: '/skills/krakenjs.svg',
+    //     title: 'Kraken Js'
+    // },
+    // {
+    //     name: 'next',
+    //     src: '/skills/nextjs.svg',
+    //     title: 'Next Js'
+    // },
     {
         name: 'typescript',
         src: '/skills/typescript.svg',
         title: 'Typescript'
     },
-    {
-        name: 'webpack',
-        src: '/skills/webpack.svg',
-        title: 'Webpack'
-    },
-    {
-        name: 'tailwind',
-        src: '/skills/tailwindcss.svg',
-        title: 'Tailwind'
-    },
-    {
-        name: 'sass',
-        src: '/skills/sass.svg',
-        title: 'Sass'
-    },
+    // {
+    //     name: 'webpack',
+    //     src: '/skills/webpack.svg',
+    //     title: 'Webpack'
+    // },
+    // {
+    //     name: 'tailwind',
+    //     src: '/skills/tailwindcss.svg',
+    //     title: 'Tailwind'
+    // },
+    // {
+    //     name: 'sass',
+    //     src: '/skills/sass.svg',
+    //     title: 'Sass'
+    // },
     {
         name: 'css',
         src: '/skills/css.svg',
@@ -112,15 +112,30 @@ const backEndSkills = [
         title: 'Node Js'
     },
     {
-        name: 'express',
-        src: '/skills/expressjs.svg',
-        title: 'Express Js'
+        name: 'python',
+        src: '/skills/python.svg',
+        title: 'Python'
     },
     {
-        name: 'mongodb',
-        src: '/skills/mongodb.svg',
-        title: 'Mongo DB'
+        name: 'sql',
+        src: '/skills/mssql.svg',
+        title: 'MS SQL'
     }
+    // {
+    //     name: 'fastapi',
+    //     src: '/skills/fastapi.svg',
+    //     title: 'FastAPI'
+    // },
+    // {
+    //     name: 'express',
+    //     src: '/skills/expressjs.svg',
+    //     title: 'Express Js'
+    // },
+    // {
+    //     name: 'mongodb',
+    //     src: '/skills/mongodb.svg',
+    //     title: 'Mongo DB'
+    // }
 ];
 
 const otherSkills = [
@@ -186,10 +201,12 @@ export const workDetails = [
         place: "Hyderabad, India",
         desc: [
             {
-                project: "United Health Group",
+                project: "Optum (United Health Group)",
                 summary: [
-                    "Designed, Developed and Maintained front-end interfaces for a Machine Learning-driven project utilizing React JS and Redux for robust state management.",
-                    "Reviewed, refactored and optimised the codebase to enhance performance and maintainability, ensuring maximum efficiency of the project."
+                    "Developed and maintained <b>dynamic front-end interfaces</b> for a machine-learning driven project using React.js and Redux for state management.",
+                    "Improved codebase performance and maintainability by implementing best practices and optimisation techniques.",
+                    "Built REST APIs using FastAPI and implemented <b>Redis for data caching</b>, boosting application responsiveness.",
+                    "Automated front-end deployment workflows with <b>Docker</b>, enhancing CI/CD efficiency."
                 ]
             },
             {
